@@ -1,16 +1,37 @@
 # zoom_clone
+This is a self-practice through the tutorial of Rivaan Ranawat.  
+At the same time, I made some modifications and variations and added some new features.
 
-A new Flutter project.
+You can visit Rivaan Ranawat at the website as follow:  
+[Rivaan Ranawat's GitHub](https://github.com/RivaanRanawat)  
+[Rivaan Ranawat's Youtube channel](https://www.youtube.com/channel/UC-1kzHtwBY8n0TY5NhYxNaw)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features
+1. Google Sign in
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Packages
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| **Package**                                                   | **Explain**           |
+|---------------------------------------------------------------|-----------------------|
+
+
+
+## Directory Structure
+
+The project directory structure is as follows:
+```
+|--lib
+    |--screens
+    |--utils
+    |--widgets
+```
+
+
+| **Directory** | **Explain**                   |
+|---------------|-------------------------------|
+| screens       | View layer directory          |
+| utils         | Utilities                     |
+| widgets       | Additional customized Widgets |
+
