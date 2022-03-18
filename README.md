@@ -19,6 +19,7 @@ You can visit Rivaan Ranawat at the website as follow:
 |[firebase_auth](https://pub.dev/packages/firebase_auth)|Firebase authentication|
 |[cloud_firestore](https://pub.dev/packages/cloud_firestore)|Cloud Firestore API|
 |[google_sign_in](https://pub.dev/packages/google_sign_in)|Google sign-in avaliable|
+|[jitsi_meet](https://pub.dev/packages/jitsi_meet/install)|Provide video conferences|
 
 
 
@@ -27,7 +28,10 @@ You can visit Rivaan Ranawat at the website as follow:
 The project directory structure is as follows:
 ```
 |--lib
+    |--models
     |--screens
+        |--home
+        |--login
     |--utils
     |--widgets
 ```
@@ -35,6 +39,7 @@ The project directory structure is as follows:
 
 | **Directory** | **Explain**                   |
 |---------------|-------------------------------|
+| models        | Model layer directory         |
 | screens       | View layer directory          |
 | utils         | Utilities                     |
 | widgets       | Additional customized Widgets |
