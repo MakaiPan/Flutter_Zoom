@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:zoom_clone/resources/auth_methods.dart';
-import 'package:zoom_clone/screens/home/home_screen.dart';
+import 'package:zoom_clone/utils/auth.dart';
+import 'package:zoom_clone/pages/meet_and_chat/meet_and_chat_page.dart';
 import 'package:zoom_clone/widgets/custom_button.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -12,7 +12,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final AuthMethods _authMethods = AuthMethods();
+  final Auth _authMethods = Auth();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
             onPressed: () async {
               bool res = await _authMethods.signInWithGoogle(context);
               if (res) {
-                Navigator.pushNamed(context, HomeScreen.id);
+                Navigator.pushNamed(context, MeetAndChatPage.id);
               }
             },
           ),

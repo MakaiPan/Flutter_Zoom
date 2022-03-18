@@ -4,11 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:zoom_clone/utils/showers.dart';
 
-class AuthMethods {
+class Auth {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
   Stream<User?> get authChanges => _auth.authStateChanges();
+  User get user => _auth.currentUser!;
 
   Future<bool> signInWithGoogle(BuildContext context) async {
     bool res = false;
@@ -17,12 +18,12 @@ class AuthMethods {
       final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
       final GoogleSignInAuthentication? googleAuth =
           await googleUser?.authentication;
-      final credentail = GoogleAuthProvider.credential(
+      final credential = GoogleAuthProvider.credential(
         accessToken: googleAuth?.accessToken,
         idToken: googleAuth?.idToken,
       );
       UserCredential userCredential =
-          await _auth.signInWithCredential(credentail);
+          await _auth.signInWithCredential(credential);
       User? user = userCredential.user;
 
       if (user != null) {

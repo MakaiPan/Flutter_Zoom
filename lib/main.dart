@@ -1,8 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:zoom_clone/resources/auth_methods.dart';
-import 'package:zoom_clone/screens/home/home_screen.dart';
-import 'package:zoom_clone/screens/login/login_screen.dart';
+import 'package:zoom_clone/pages/meet_and_chat/screens/join/join_screen.dart';
+import 'package:zoom_clone/utils/auth.dart';
+import 'package:zoom_clone/pages/login/login_page.dart';
+import 'package:zoom_clone/pages/meet_and_chat/meet_and_chat_page.dart';
+import 'package:zoom_clone/pages/screen_layout.dart';
 import 'package:zoom_clone/utils/colors.dart';
 
 void main() async {
@@ -24,10 +26,11 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         LoginScreen.id: (context) => const LoginScreen(),
-        HomeScreen.id: (context) => const HomeScreen(),
+        MeetAndChatPage.id: (context) => const MeetAndChatPage(),
+        JoinScreen.id: (context) => const JoinScreen(),
       },
       home: StreamBuilder(
-        stream: AuthMethods().authChanges,
+        stream: Auth().authChanges,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(
@@ -35,7 +38,7 @@ class MyApp extends StatelessWidget {
             );
           }
           if (snapshot.hasData) {
-            return const HomeScreen();
+            return const ScreenLayout();
           } else {
             return const LoginScreen();
           }
