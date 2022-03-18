@@ -1,5 +1,5 @@
 # zoom_clone
-It is a self-practice through the tutorial of Rivaan Ranawat.  
+It is a practice referring to the tutorial of Rivaan Ranawat.  
 At the same time, I made some changes and added some new features.
 
 You can visit Rivaan Ranawat at the website as following:  
