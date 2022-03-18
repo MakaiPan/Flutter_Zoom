@@ -17,6 +17,7 @@ You can visit Rivaan Ranawat at the website as follow:
 |---------------------------------------------------------------|-----------------------|
 |[firebase_core](https://pub.dev/packages/firebase_core)|Firebase Core API, which enables connecting to multiple Firebase apps|
 |[firebase_auth](https://pub.dev/packages/firebase_auth)|Firebase authentication|
+|[cloud_firestore](https://pub.dev/packages/cloud_firestore)|Cloud Firestore API|
 |[google_sign_in](https://pub.dev/packages/google_sign_in)|Google sign-in avaliable|
 
 
