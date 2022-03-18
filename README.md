@@ -13,7 +13,7 @@ You can visit Rivaan Ranawat at the website as following:
 
 ## Packages
 
-| **Package**                                                 | **Explain**                                                           |
+| **Package**                                                 | **Description**                                                       |
 |-------------------------------------------------------------|-----------------------------------------------------------------------|
 | [firebase_core](https://pub.dev/packages/firebase_core)     | Firebase Core API, which enables connecting to multiple Firebase apps |
 | [firebase_auth](https://pub.dev/packages/firebase_auth)     | Firebase authentication                                               |
@@ -29,18 +29,25 @@ The project directory structure is as follows:
 ```
 |--lib
     |--models
-    |--screens
-        |--home
+    |--pages
         |--login
+        |--meet_and_chat
+        |--meetings
     |--utils
     |--widgets
 ```
 
 
-| **Directory** | **Explain**                   |
+| **Directory** | **Description**               |
 |---------------|-------------------------------|
 | models        | Model layer directory         |
-| screens       | View layer directory          |
+| pages         | View layer directory          |
 | utils         | Utilities                     |
 | widgets       | Additional customized Widgets |
+
+| **Page**      | **Description**                                                   |
+|---------------|-------------------------------------------------------------------|
+| login         | Login Google account                                              |
+| meet_and_chat | Main Page for create and join meeting, schedule, and share screen |
+| meetings      | None                                                              |
 
