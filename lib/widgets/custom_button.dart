@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:zoom_clone/utils/colors.dart';
 
-class CustonButton extends StatelessWidget {
-  const CustonButton({
+class CustomButton extends StatelessWidget {
+  const CustomButton({
     Key? key,
     required this.text,
     required this.onPressed,
   }) : super(key: key);
 
   final String text;
-  final Function() onPressed;
+  final Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -26,8 +26,7 @@ class CustonButton extends StatelessWidget {
           primary: kButtonColor,
           minimumSize: const Size(double.infinity, 48),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30),
-            side: const BorderSide(color: kButtonColor),
+            borderRadius: BorderRadius.circular(16.0),
           ),
         ),
         onPressed: onPressed,

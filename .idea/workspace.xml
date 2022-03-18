@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920c8773-92ed-4bef-bde8-23cc655a03da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/pages/meet_and_chat/meet_and_chat_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/meet_and_chat/screens/join/join_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/meet_and_chat/screens/new_meeting/new_meeting_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/meetings/meetings_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/screen_layout.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/jitsi.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widgets/intpu_text_field.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/auth.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/meeting_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/meet_and_chat/components/meeting_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/login/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/login/login_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/login/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/login/login_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/meet_and_chat/screens/join/join_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/meet_and_chat/screens/join/join_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoom_clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zoom_clone.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

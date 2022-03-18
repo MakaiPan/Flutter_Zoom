@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
             padding: const EdgeInsets.symmetric(vertical: 24.0),
             child: Image.asset('assets/images/onboarding.jpg'),
           ),
-          CustonButton(
+          CustomButton(
             text: 'Sign In',
             onPressed: () async {
               bool res = await _authMethods.signInWithGoogle(context);
